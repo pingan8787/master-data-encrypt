@@ -1,3 +1,4 @@
 module.exports = {
-    user : { path : '/user', method : 'POST' }
+    leo : { path : '/leo', method : 'POST' },
+    user : { path : '/user', method : 'POST' },
 }

@@ -40,7 +40,6 @@ const getRandomAESKey = () => {
 
 // 对称加密 - 加密方法
 const aesEncrypt = (key, iv, content) => {
-    console.log("content:",content)
     const text = CryptoJS.enc.Utf8.parse(JSON.stringify(content));
     return CryptoJS.AES.encrypt(text, key, {
         iv,
@@ -93,6 +92,8 @@ const hybridDecrypt = encryptedResult => {
 }
 
 module.exports = {
+    aesEncrypt,
+    aesDecrypt,
     hybridEncrypt,
     hybridDecrypt
 }
