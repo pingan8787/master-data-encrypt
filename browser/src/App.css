@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.content {
+  margin-bottom: 10px;
+  background: #eee;
+  padding: 10px;
+}
+
 .userList , .userList li{
   list-style: none;
 }

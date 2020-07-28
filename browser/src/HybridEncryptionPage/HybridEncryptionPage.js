@@ -106,7 +106,7 @@ function HybridEncryptionPage() {
     }
 
     return (
-        <div className="App">
+        <div className="content">
             <h3>阿宝哥：混合加密与解密示例</h3>
             <div className="Content">
                 <div>

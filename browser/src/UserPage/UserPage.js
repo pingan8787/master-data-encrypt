@@ -57,7 +57,7 @@ const UserPage = () => {
         })();
     }, []);
     return (
-        <div>
+        <div className="content">
             <h3>Leo：前后端混合加密实战 - POST 请求（CBC 模式）</h3>
             <div>用户请求结果:{leo.user}</div>
             <div>是否解密:{leo.isDecrypted ? "已解密" : "未解密"}</div>

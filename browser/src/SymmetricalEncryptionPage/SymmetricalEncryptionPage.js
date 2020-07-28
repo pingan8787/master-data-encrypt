@@ -38,7 +38,7 @@ function AESPage() {
   }
 
   return (
-    <div className="App">
+    <div className="content">
       <h3>阿宝哥：AES 对称加密与解密示例（CBC 模式）</h3>
       <div className="Content">
         <div>
