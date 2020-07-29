@@ -2,10 +2,12 @@ const routerData = {
     leo : { path : '/leo', method : 'POST' },
     user : { path : '/user', method : 'POST' },
 }
-const getRouters = req => {
-  const { path } = ctx.request;
+const getRouters = path => {
   const routerKey = path && path.replace("/", "");
-  return routerData[routerKey];
+  return {
+    routerKey,
+    router: routerData[routerKey]
+  };
 }
 
 module.exports = {

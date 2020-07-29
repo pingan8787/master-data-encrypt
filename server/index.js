@@ -11,7 +11,7 @@ app.use(cors());
 
 app.use(async (ctx, next) => {
   const { path: curPath, method: curMethod, body } = ctx.request;
-  const { path, method } = getRouters(ctx.request);
+  const { routerKey, router:{path, method} } = getRouters(curPath);
   if (curPath === path && curMethod === method) {
     /*
       服务端对 post 数据进行解密等操作
