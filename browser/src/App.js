@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import UserPage from "./UserPage/UserPage";
-import SymmetricalEncryptionPage from "./SymmetricalEncryptionPage/SymmetricalEncryptionPage";
-import AsymmetricEncryptionPage from "./AsymmetricEncryptionPage/AsymmetricEncryptionPage";
-import HybridEncryptionPage from "./HybridEncryptionPage/HybridEncryptionPage";
+import UserPage from "./component/UserPage";
+import SymmetricalEncryptionPage from "./component/SymmetricalEncryptionPage";
+import AsymmetricEncryptionPage from "./component/AsymmetricEncryptionPage";
+import HybridEncryptionPage from "./component/HybridEncryptionPage";
 
 function App() {
   return (
