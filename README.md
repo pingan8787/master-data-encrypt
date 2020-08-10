@@ -4,7 +4,7 @@
 
 实现流程图如下：
 
-![master-data-encrypt.png](https://github.com/pingan8787/master-data-encrypt/images/master-data-encrypt.png)
+![master-data-encrypt.png](https://github.com/pingan8787/master-data-encrypt/blob/master/images/master-data-encrypt.png)
 
 
 详细介绍，待补充。。。
