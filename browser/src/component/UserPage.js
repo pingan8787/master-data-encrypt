@@ -58,7 +58,7 @@ const UserPage = () => {
 
 
             <h3>Leo：前后端混合加密实战 - 手动发起 POST 请求（CBC 模式）</h3>
-            <p>目前支持输入值：Leo / Robin / Rooney，输入控制返回全部。</p>
+            <p>目前支持输入值：Leo / Robin / Rooney，输入空值返回全部。</p>
             <div>
                 <p>用户列表：</p>
                 <ul className="userList">
